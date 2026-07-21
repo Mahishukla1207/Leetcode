@@ -3,7 +3,7 @@ package Arrays;
 public class Palindrome {
     class Solution {
     public boolean isPalindrome(int x) {
-        int num=x,n=x,c=0,digit,rev_num=0;
+        int num=x,n=x,digit,rev_num=0;
         
         while(num!=0){
             digit=num%10;
